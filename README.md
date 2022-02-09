@@ -8,12 +8,36 @@ Sopra Steria Trondheim Cloud Community er et internt kompetasemiljø for utvikli
 
 ## Konsept: Tech Tuesday
 
-Det er forsøkt startet en tradisjon for intern Tech Tuesday, og formatet er korte teknolunsjer hvor vi presenterer et eller annet teknisk tema.
+Det er forsøkt startet en tradisjon for intern Tech Tuesday/Teknolunsj, og formatet er korte teknolunsjer hvor vi presenterer et eller annet teknisk tema. Noen teknolunsjer erstattes med større demonstrasjoner i MS Cloud Community, eller andre events som tar tid fra teknolunsjene.
 
 ### Avholdte møter
 
 - [Tech Tuesday: Terraform intro](./SlideDecks/2021-10-12/Tech%20Tuesday%20-%20Terraform%20intro.pptx)
 - [Tech Tuesday: CAF ESLZ](./SlideDecks/2021-11-23/Tech%20Tuesday%20-%20CAF%20ESLZ.pptx)
+- [MS Cloud Community: Bicep demo](SlideDecks/2021-12-08/Presentasjon%20-%20Bicep.pptx)
+
+### Planlagte fremtidige møter
+
+#### Azure Network Security
+
+- Grunnleggende om Network Security Groups (IaaS NSG) (planlagt 14. februar i Trondheim og på Teams)
+- Grunnleggende om Private Endpoints (PaaS)
+- Grunnleggende om Service Endpoints (PaaS)
+- Grunnleggende om Azure UDR (User Defined Routes)
+- Grunnleggende om Azure Firewall
+- Grunnleggende om Azure Application Gateway with Web Application Firewall (WAF)
+- Grunnleggende om Azure Load Balancer (Standard LB)
+- Grunnleggende om VPN
+- Grunnleggende om ExpressRoute
+- Grunnleggende om Azure Virtual WAN
+- Grunnleggende om Hub-spoke (Bicep ALZ)
+
+#### Azure Governance
+
+- Grunnleggende om Azure Policies
+- Grunnleggende om Azure Management Groups
+- Grunnleggende om Subscription Topologier
+- Grunnleggende om IaC Operations-prinsipper
 
 ## Bidra
 
