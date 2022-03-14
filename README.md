@@ -15,18 +15,18 @@ Det er forsøkt startet en tradisjon for intern Tech Tuesday/Teknolunsj, og form
 - [Tech Tuesday: Terraform intro](./SlideDecks/2021-10-12/Tech%20Tuesday%20-%20Terraform%20intro.pptx)
 - [Tech Tuesday: CAF ESLZ](./SlideDecks/2021-11-23/Tech%20Tuesday%20-%20CAF%20ESLZ.pptx)
 - [MS Cloud Community: Bicep demo](SlideDecks/2021-12-08/Presentasjon%20-%20Bicep.pptx)
+- [Tech Tuesday: Network Security Groups](SlideDecks/2022-02-14/Presentasjon%20-%20Network%20Security%20Groups.pptx)
 
 ### Planlagte fremtidige møter
 
 #### Azure Network Security
 
-- Grunnleggende om Network Security Groups (IaaS NSG) (planlagt 14. februar i Trondheim og på Teams)
+- Grunnleggende om Azure Application Gateway with Web Application Firewall (WAF)
+- Grunnleggende om Azure Firewall
+- Grunnleggende om Azure Load Balancer (Standard LB)
 - Grunnleggende om Private Endpoints (PaaS)
 - Grunnleggende om Service Endpoints (PaaS)
 - Grunnleggende om Azure UDR (User Defined Routes)
-- Grunnleggende om Azure Firewall
-- Grunnleggende om Azure Application Gateway with Web Application Firewall (WAF)
-- Grunnleggende om Azure Load Balancer (Standard LB)
 - Grunnleggende om VPN
 - Grunnleggende om ExpressRoute
 - Grunnleggende om Azure Virtual WAN
@@ -41,7 +41,7 @@ Det er forsøkt startet en tradisjon for intern Tech Tuesday/Teknolunsj, og form
 
 ## Bidra
 
-Jeg har stort sett brukt [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow) som branching strategi, så jeg følger samme modell her. 
+Jeg har stort sett brukt [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow) som branching strategi, så jeg følger samme modell her.
 
 Dette betyr:
 
