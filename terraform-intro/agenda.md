@@ -25,24 +25,17 @@
 - Defining resources, variables, and outputs in Terraform
 - Managing state with Terraform
 - Variables and interpolation in HCL
+- Understanding the locals block
 - Modules and reusability in Terraform
 - Interactive: Hands-on exercises to practice writing HCL configurations
 
 ### Hands-on exercises
 
-1. Write an HCL block that defines an Azure resource group named "myResourceGroup" with the location set to "norwayeast".
-2. Write an HCL block that creates an Azure storage account with the following properties:
-   - Name: "mystorageaccount"
-   - Resource group: "myResourceGroup"
-   - Location: "norwayeast"
-   - Account kind: "StorageV2"
-   - Access tier: "Hot"
-   - Replication type: "LRS"
-   - Note that the storage account name needs to be globally unique. Bonus points if you find a different method than adding your own initials. Hint: look at the `random_string` resource.
-3. Create an HCL variable named "vm_count" and set its value to 3. Use interpolation to define a resource block that creates an Azure virtual machine with a count equal to the value of "vm_count". Each virtual machine should have a unique name and use the same image and size.
-4. Define an HCL module named "network" that takes input variables "subnet_name" and "vnet_name". Within the module, create an Azure virtual network with the provided name and a subnet with the provided name.
-
-5. Create an HCL locals block that calculates the sum of two variables, "num1" and "num2", and stores the result in a local variable named "sum". Use interpolation to display the value of "sum" in a resource block.
+1. Write an HCL block that defines a local output with the value "Hello, world!".
+2. Write an HCL block that defines a local output with a value from some input. For example, if the input is "Hello", the output should be "Hello, world!".
+3. Write a couple of HCL blocks that combined create a conditional output based in some input. For example, if the input is "true", the output should be "Hello, world!". If the input is "false", the output should be "Goodbye, world!".
+4. Write a couple of HCL blocks that create some random outputs based on some input. Hint: Take a look at the `random_pet_name` and `random_string` resources.
+5. Create an HCL locals block that calculates the sum of two variables, "num1" and "num2", and stores the result in a local variable named "sum". Use interpolation to display the value of "sum" in an output.
 
 ## Break (15 minutes)
 
@@ -54,6 +47,24 @@
 - Understanding Terraform state management
 - Interactive: Demonstration and hands-on practice of initializing and running a Terraform project
 
+### Hands-on exercises
+
+1. Install Terraform.
+2. Install Azure CLI.
+3. Create a directory for your Terraform project.
+4. Initialize your Terraform project.
+5. Write an HCL block that defines an Azure resource group named "myResourceGroup" with the location set to "norwayeast".
+6. Write an HCL block that creates an Azure storage account with the following properties:
+   - Name: "mystorageaccount"
+   - Resource group: "myResourceGroup"
+   - Location: "norwayeast"
+   - Account kind: "StorageV2"
+   - Access tier: "Hot"
+   - Replication type: "LRS"
+   - Note that the storage account name needs to be globally unique. Bonus points if you find a different method than adding your own initials. Hint: look at the `random_string` resource.
+7. Create an HCL variable named "vm_count" and set its value to 3. Use interpolation to define a resource block that creates an Azure virtual machine with a count equal to the value of "vm_count". Each virtual machine should have a unique name and use the same image and size.
+8. Define an HCL module named "network" that takes input variables "subnet_name" and "vnet_name". Within the module, create an Azure virtual network with the provided name and a subnet with the provided name.
+
 ## Session 4: Terraform Providers (1 hour)
 
 - Overview of Terraform providers and their role
@@ -61,7 +72,11 @@
 - Installing and configuring providers
 - Exploring common providers (e.g., Azure, AWS, GCP)
 - Managing provider versions and updates
-- Interactive: Guided exercises to install and configure Spotify provider for playlist management
+- Interactive: Guided exercises to configure Spotify provider for playlist management.
+
+### Hands-on exercises
+
+Follow the guide [here](https://developer.hashicorp.com/terraform/tutorials/community-providers/spotify-playlist) or just look at the demonstration. **Requires Docker Desktop on your client and a Spotify account.**
 
 ## Lunch (30 minutes)
 
@@ -73,6 +88,23 @@
 - Managing access control and permissions in Azure
 - Interactive: Step-by-step walkthrough of authenticating to Azure using Terraform and deploying Azure resources
 
+### Hands-on exercises
+
+#### Azure CLI manual authentication
+
+- Authenticate to Azure with Azure CLI.
+- Use the authenticated Azure CLI session to deploy an Azure resource group.
+
+#### Azure Service Principal authentication
+
+- Store service principal credentials in environment variables.
+- Use the service principal credentials to authenticate to Azure and deploy an Azure resource group.
+
+#### Azure Managed Identity authentication
+
+- Run Terraform from an Azure virtual machine with a managed identity.
+- Create an Azure resource group with Terraform from an Azure virtual machine with a managed identity.
+
 ## Session 6: Advanced Terraform Topics (1 hour)
 
 - Automating Terraform workflows with GitHub Actions or other CI/CD tools
@@ -81,7 +113,7 @@
 - Using Terraform modules from the Terraform Registry
 - Terraform best practices and common pitfalls
 - Debugging Terraform deployments and understanding error messages
-- Interactive: Discussion and hands-on exercises to implement GitHub Actions and Azure DevOps pipelines for Terraform automation
+- Demonstration: Deploying Azure Landing Zones framework from Azure Terraform module with GitHub actions workflows.
 
 ## Break (15 minutes)
 
@@ -93,6 +125,25 @@
 - State locking and concurrent operations
 - Managing large-scale state files and state file optimization
 - State migration and manipulation techniques (tf import, tf state mv, etc.)
+- Interactive: Test out different backend types and state management techniques
+
+### Hands-on exercises
+
+#### Local backend
+
+- Initialize a Terraform project with a local backend.
+- Deploy an Azure resource group with Terraform.
+- Change the name of the resource group in the Terraform configuration.
+- Deploy the Terraform configuration again and observe the changes.
+- Inspect the state file in the local backend.
+
+#### Remote backend
+
+- Create an Azure Storage account.
+- Create a container in the Azure Storage account.
+- Initialize a Terraform project with a remote backend.
+- Deploy an Azure resource group with Terraform.
+- Inspect the state file in the Azure Storage account.
 
 ## Session 8: Q&A and Recap (30 minutes)
 
