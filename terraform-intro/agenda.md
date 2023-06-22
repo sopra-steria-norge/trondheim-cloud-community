@@ -46,7 +46,7 @@
    - Replication type: "LRS"
    - Note that the storage account name needs to be globally unique. Bonus points if you find a better way of generating a unique name than adding your own initials.
 
-Break (15 minutes)
+## Break (15 minutes)
 
 ## Session 3: Getting Started with Terraform (1 hour)
 
@@ -65,7 +65,7 @@ Break (15 minutes)
 - Managing provider versions and updates
 - Interactive: Guided exercises to install and configure Spotify provider for playlist management
 
-Lunch (30 minutes)
+## Lunch (30 minutes)
 
 ## Session 5: Authenticating to Azure with Terraform (1 hour)
 
@@ -85,7 +85,7 @@ Lunch (30 minutes)
 - Debugging Terraform deployments and understanding error messages
 - Interactive: Discussion and hands-on exercises to implement GitHub Actions and Azure DevOps pipelines for Terraform automation
 
-Break (15 minutes)
+## Break (15 minutes)
 
 ## Session 7: Terraform Backends and State Management (1 hour)
 
