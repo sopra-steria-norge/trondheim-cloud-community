@@ -44,7 +44,7 @@
    - Account kind: "StorageV2"
    - Access tier: "Hot"
    - Replication type: "LRS"
-   - Note that the storage account name needs to be globally unique. Bonus points if you find a better way of generating a unique name than adding your own initials.
+   - Note that the storage account name needs to be globally unique. Bonus points if you find a different method than adding your own initials. Hint: look at the `random_string` resource.
 
 ## Break (15 minutes)
 
