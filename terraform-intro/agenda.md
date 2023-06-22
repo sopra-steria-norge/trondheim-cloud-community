@@ -2,16 +2,24 @@
 
 ## Agenda:
 
-1. Introduction to Infrastructure as Code and Terraform (1 hour)
-2. Understanding HashiCorp Configuration Language (HCL) (1 hour)
-3. Getting Started with Terraform (1 hour)
-4. Terraform providers (1 hour)
-5. Authenting to Azure with Terraform (1 hour)
-6. Advanced Terraform Topics (1 hour)
-7. Terraform Backends and State Management (1 hour)
-8. Q&A and Recap (30 minutes)
+1. General introduction (10 minutes)
+2. Introduction to Infrastructure as Code and Terraform (45 mins)
+3. Understanding HashiCorp Configuration Language (HCL) (45 mins)
+4. Getting Started with Terraform (45 mins)
+5. Terraform providers (45 mins)
+6. Authenting to Azure with Terraform (45 mins)
+7. Advanced Terraform Topics (45 mins)
+8. Terraform Backends and State Management (45 mins)
+9. Q&A and Recap (30 minutes)
 
-## Session 1: Introduction to Infrastructure as Code and Terraform (1 hour)
+## Session 1: General introduction (10 minutes)
+
+- Introductions
+- Participants expectations
+- Presenter expectations
+- Practical information
+
+## Session 2: Introduction to Infrastructure as Code and Terraform (45 mins)
 
 - What is Infrastructure as Code (IaC)?
 - Other IaC tools and their benefits
@@ -19,7 +27,7 @@
 - Key concepts in Terraform
 - Interactive: Discuss real-world use cases and benefits of IaC and Terraform
 
-## Session 2: Understanding HashiCorp Configuration Language (HCL) (1 hour)
+## Session 3: Understanding HashiCorp Configuration Language (HCL) (45 mins)
 
 - Understanding Terraform's declarative configuration language
 - Defining resources, variables, and outputs in Terraform
@@ -39,7 +47,7 @@
 
 ## Break (15 minutes)
 
-## Session 3: Getting Started with Terraform (1 hour)
+## Session 4: Getting Started with Terraform (45 mins)
 
 - Setting up Terraform on your machine
 - Initializing a Terraform project
@@ -65,7 +73,7 @@
 7. Create an HCL variable named "vm_count" and set its value to 3. Use interpolation to define a resource block that creates an Azure virtual machine with a count equal to the value of "vm_count". Each virtual machine should have a unique name and use the same image and size.
 8. Define an HCL module named "network" that takes input variables "subnet_name" and "vnet_name". Within the module, create an Azure virtual network with the provided name and a subnet with the provided name.
 
-## Session 4: Terraform Providers (1 hour)
+## Session 5: Terraform Providers (45 mins)
 
 - Overview of Terraform providers and their role
 - Understanding Terraform providers and their role in infrastructure provisioning
@@ -80,7 +88,7 @@ Follow the guide [here](https://developer.hashicorp.com/terraform/tutorials/comm
 
 ## Lunch (30 minutes)
 
-## Session 5: Authenticating to Azure with Terraform (1 hour)
+## Session 6: Authenticating to Azure with Terraform (45 mins)
 
 - Introduction to Azure Resource Manager (ARM)
 - Authenticating to Azure using Service Principal and Managed Identity
@@ -105,7 +113,7 @@ Follow the guide [here](https://developer.hashicorp.com/terraform/tutorials/comm
 - Run Terraform from an Azure virtual machine with a managed identity.
 - Create an Azure resource group with Terraform from an Azure virtual machine with a managed identity.
 
-## Session 6: Advanced Terraform Topics (1 hour)
+## Session 7: Advanced Terraform Topics (45 mins)
 
 - Automating Terraform workflows with GitHub Actions or other CI/CD tools
 - Integrating Terraform with Azure DevOps pipelines
@@ -117,7 +125,7 @@ Follow the guide [here](https://developer.hashicorp.com/terraform/tutorials/comm
 
 ## Break (15 minutes)
 
-## Session 7: Terraform Backends and State Management (1 hour)
+## Session 8: Terraform Backends and State Management (45 mins)
 
 - Understanding different backend types (local, remote, etc.)
 - Configuring and utilizing remote backends (e.g., Azure Storage, AWS S3)
@@ -145,7 +153,7 @@ Follow the guide [here](https://developer.hashicorp.com/terraform/tutorials/comm
 - Deploy an Azure resource group with Terraform.
 - Inspect the state file in the Azure Storage account.
 
-## Session 8: Q&A and Recap (30 minutes)
+## Session 9: Q&A and Recap (30 minutes)
 
 - Answering participant questions
 - Recap of key concepts and best practices
