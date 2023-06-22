@@ -31,13 +31,7 @@
 ### Hands-on exercises
 
 1. Write an HCL block that defines an Azure resource group named "myResourceGroup" with the location set to "norwayeast".
-2. Create an HCL variable named "vm_count" and set its value to 3. Use interpolation to define a resource block that creates an Azure virtual machine with a count equal to the value of "vm_count". Each virtual machine should have a unique name and use the same image and size.
-3. Define an HCL module named "network" that takes input variables "subnet_name" and "vnet_name". Within the module, create an Azure virtual network with the provided name and a subnet with the provided name.
-
-4. Create an HCL locals block that calculates the sum of two variables, "num1" and "num2", and stores the result in a local variable named "sum". Use interpolation to display the value of "sum" in a resource block.
-
-5. Write an HCL block that creates an Azure storage account with the following properties:
-
+2. Write an HCL block that creates an Azure storage account with the following properties:
    - Name: "mystorageaccount"
    - Resource group: "myResourceGroup"
    - Location: "norwayeast"
@@ -45,6 +39,10 @@
    - Access tier: "Hot"
    - Replication type: "LRS"
    - Note that the storage account name needs to be globally unique. Bonus points if you find a different method than adding your own initials. Hint: look at the `random_string` resource.
+3. Create an HCL variable named "vm_count" and set its value to 3. Use interpolation to define a resource block that creates an Azure virtual machine with a count equal to the value of "vm_count". Each virtual machine should have a unique name and use the same image and size.
+4. Define an HCL module named "network" that takes input variables "subnet_name" and "vnet_name". Within the module, create an Azure virtual network with the provided name and a subnet with the provided name.
+
+5. Create an HCL locals block that calculates the sum of two variables, "num1" and "num2", and stores the result in a local variable named "sum". Use interpolation to display the value of "sum" in a resource block.
 
 ## Break (15 minutes)
 
