@@ -15,6 +15,7 @@
 ## Session 1: General introduction (10 minutes)
 
 - Introductions
+  - Mention MS Cloud Trondheim
 - Participants expectations
 - Presenter expectations
 - Practical information
@@ -22,18 +23,64 @@
 ## Session 2: Introduction to Infrastructure as Code and Terraform (45 mins)
 
 - What is Infrastructure as Code (IaC)?
+  - Infrastructure defined in code
+  - DevOps / Automation
+  - Imperative vs declarative
+  - Idempotent
+  - Immutable vs mutable
+  - Reusability
 - Other IaC tools and their benefits
+  - Bicep
+  - ARM Templates
+  - Pulumi
 - Benefits of using Terraform for IaC
+  - Multi-cloud support
+  - Community support
+  - Open source
+  - Declarative language
+  - Reusability
+  - State management
+  - Version control
+  - Providers
+  - Modules
+  - Backends
 - Key concepts in Terraform
+  - terraform validate
+  - terraform init
+  - terraform plan
+  - terraform apply
+  - terraform destroy
+  - Providers
+  - Resources
+  - Variables
+  - Outputs
+  - Locals
+  - Modules
+  - State
+  - Backends
+  - Authentication
 - Interactive: Discuss real-world use cases and benefits of IaC and Terraform
+  - What are some real-world use cases for IaC?
+    - Miljødirektoratet
+    - Vipps Bicep
 
 ## Session 3: Understanding HashiCorp Configuration Language (HCL) (45 mins)
 
 - Understanding Terraform's declarative configuration language
 - Defining resources, variables, and outputs in Terraform
+  - Use the super hero demo
 - Managing state with Terraform
+  - Automatic local state
+  - Manual remote state
 - Variables and interpolation in HCL
+  - Understanding variable types
+  - Understanding variable defaults
+  - Understanding variable validation
+  - Understanding variable interpolation
 - Understanding the locals block
+- Understanding conditional expressions
+- Understanding outputs
+- Understanding dynamic blocks
 - Modules and reusability in Terraform
 - Interactive: Hands-on exercises to practice writing HCL configurations
 
@@ -50,9 +97,11 @@
 ## Session 4: Getting Started with Terraform (45 mins)
 
 - Setting up Terraform on your machine
+  - Terraform versions
 - Initializing a Terraform project
 - Defining and managing resources with Terraform
 - Understanding Terraform state management
+- Terraform AzApi provider for preview features
 - Interactive: Demonstration and hands-on practice of initializing and running a Terraform project
 
 ### Hands-on exercises
@@ -76,10 +125,20 @@
 ## Session 5: Terraform Providers (45 mins)
 
 - Overview of Terraform providers and their role
+  - Azure
+  - AWS
+  - GCP
+  - VMware
+  - Kubernetes
+  - null resource
+  - local exec
+  - Random
 - Understanding Terraform providers and their role in infrastructure provisioning
-- Installing and configuring providers
+- Configuring providers
 - Exploring common providers (e.g., Azure, AWS, GCP)
-- Managing provider versions and updates
+- [Managing provider versions and updates](https://developer.hashicorp.com/terraform/language/expressions/version-constraints)
+  - Version constraints - "~> 3.0" / ">= 3.0.0"
+  - Provider version pinning - "= 3.0.0"
 - Interactive: Guided exercises to configure Spotify provider for playlist management.
 
 ### Hands-on exercises
@@ -91,9 +150,20 @@ Follow the guide [here](https://developer.hashicorp.com/terraform/tutorials/comm
 ## Session 6: Authenticating to Azure with Terraform (45 mins)
 
 - Introduction to Azure Resource Manager (ARM)
+  - Azure Resource Manager (ARM) api
+  - Azure Resource Manager (ARM) templates
+  - PowerShell / Azure CLI / Azure Portal
 - Authenticating to Azure using Service Principal and Managed Identity
+  - Storing clientId securely
+  - Storing clientSecret securely
+  - Benefits of Managed Identity
+  - Never store secrets in code!
 - Provisioning Azure resources with Terraform
+  - Provision with resource block
+  - Provision with module block
+  - Using AzApi
 - Managing access control and permissions in Azure
+  - Requires Owner or User Access Administrator role on scope
 - Interactive: Step-by-step walkthrough of authenticating to Azure using Terraform and deploying Azure resources
 
 ### Hands-on exercises
@@ -116,11 +186,23 @@ Follow the guide [here](https://developer.hashicorp.com/terraform/tutorials/comm
 ## Session 7: Advanced Terraform Topics (45 mins)
 
 - Automating Terraform workflows with GitHub Actions or other CI/CD tools
-- Integrating Terraform with Azure DevOps pipelines
+  - GitHub Workflows Actions
+  - Azure DevOps Pipelines
+  - Running terraform deployments from GitHub
+  - Running terraform deployments from Azure DevOps
 - Best practices for Terraform project organization
 - Using Terraform modules from the Terraform Registry
+- Handling Terraform resource configuration drift
+  - Terraform refresh on each plan/apply/refresh-only
+  - Terraform refresh-only on a schedule
+- Dynamic blocks and loops in Terraform
+  - Use or not use?
+  - When to use?
+  - How to use?
 - Terraform best practices and common pitfalls
 - Debugging Terraform deployments and understanding error messages
+  - Loglevel
+  - Debugging via terraform console
 - Demonstration: Deploying Azure Landing Zones framework from Azure Terraform module with GitHub actions workflows.
 
 ## Break (15 minutes)
@@ -129,10 +211,21 @@ Follow the guide [here](https://developer.hashicorp.com/terraform/tutorials/comm
 
 - Understanding different backend types (local, remote, etc.)
 - Configuring and utilizing remote backends (e.g., Azure Storage, AWS S3)
+  - Azure Storage blob
 - Managing Terraform state in a collaborative environment
+  - Never manually edit state files!
 - State locking and concurrent operations
+  - terraform plan and apply will lock your state
+  - Handling state locking errors
 - Managing large-scale state files and state file optimization
-- State migration and manipulation techniques (tf import, tf state mv, etc.)
+  - Terraform cloud state management
+  - GitLab Terraform state management
+- State migration and manipulation techniques
+  - terraform import
+  - import blocks
+  - terraform mv
+  - terraform rm
+  - terraform state show
 - Interactive: Test out different backend types and state management techniques
 
 ### Hands-on exercises
@@ -159,3 +252,5 @@ Follow the guide [here](https://developer.hashicorp.com/terraform/tutorials/comm
 - Recap of key concepts and best practices
 - Additional resources and next steps for further learning
 - Interactive: Open forum for participants to ask questions and share their learnings
+
+[Andreas Thorp notes](https://steria.sharepoint.com/:w:/r/sites/PowerOfSharing-TRD/Shared%20Documents/General/Terraform/Terraform-Associate-notater.docx?d=wd4733948ac1e4efdb144c67aa29ef0d9&csf=1&web=1&e=jexSZN)
