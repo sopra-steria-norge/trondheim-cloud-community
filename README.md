@@ -1,6 +1,6 @@
 # Sopra Steria Trondheim Cloud Community
 
-Offentlig repository for med innhold relatert til Trondheim Cloud Community i Sopra Steria
+Offentlig repository med innhold relatert til Trondheim Cloud Community i Sopra Steria
 
 Alle filer i dette repositoriet er offentlig tilgjengelig på internett. Det skal ikke ligge noen proprietær informasjon her.
 
