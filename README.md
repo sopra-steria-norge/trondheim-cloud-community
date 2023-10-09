@@ -27,6 +27,9 @@ Robert Dybvad og undertegnede kommer sammen til å holde faglunsjer med forskjel
 
 Første tema er Azure Landing Zones. Vi går gjennom rammeverket som Microsoft utviklet for kundene sine.
 
+>An Azure landing zone is an environment that follows key design principles across eight design areas. These design principles accommodate all application portfolios and enable application migration, modernization, and innovation at scale. An Azure landing zone uses subscriptions to isolate and scale application resources and platform resources. Subscriptions for application resources are called application landing zones, and subscriptions for platform resources are called platform landing zones.
+>- **Microsoft**
+
 - Hva er Azure Landing Zones (ALZ)?
 - Hva er en landingssone?
 - Forskjellige måter å etablere ALZ på (Terraform/Bicep).
