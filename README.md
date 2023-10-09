@@ -17,7 +17,25 @@ Det er forsøkt startet en tradisjon for intern Tech Tuesday/Teknolunsj, og form
 - [MS Cloud Community: Bicep demo](SlideDecks/2021-12-08/Presentasjon%20-%20Bicep.pptx)
 - [Tech Tuesday: Network Security Groups](SlideDecks/2022-02-14/Presentasjon%20-%20Network%20Security%20Groups.pptx)
 
-### Foreslåtte fremtidige møter
+### Planlagte møter
+
+#### 17. Oktober - Tech Tuesday: Azure Landing Zones 101
+
+Vi sparker i gang en møteserie for tekniske tema i Trondheim! Alt for lenge har vi hatt tanker om at dette er noe vi må få til, så det er på høy tid at vi endelig starter.
+
+Robert Dybvad og undertegnede kommer sammen til å holde faglunsjer med forskjellige tema. Vi gir et enkelt overblikk på et eller annet teknisk-aktig, og tar gjerne imot forslag til ting vi skal prate om.
+
+Første tema er Azure Landing Zones. Vi går gjennom rammeverket som Microsoft utviklet for kundene sine.
+
+- Hva er Azure Landing Zones (ALZ)?
+- Hva er en landingssone?
+- Forskjellige måter å etablere ALZ på (Terraform/Bicep).
+- Hvorfor bruke ALZ?
+- Governance/Guardrails?
+
+Alt dette og mer får du svaret på i denne faglunsjen. Sett av 30 minutter (eller mer hvis du har tid) til litt kompetanseheving i lunsjen!
+
+### Brainstorming
 
 - Tech Tuesday: Introduction to Azure
 - Tech Tuesday: Azure Networking - Virtual Neworks, Subnets
@@ -45,15 +63,15 @@ Det er forsøkt startet en tradisjon for intern Tech Tuesday/Teknolunsj, og form
 - Tech Tuesday: Azure Cost Management and Optimization
 - Tech Tuesday: Azure Security and Compliance
 - Tech Tuesday: Azure Governance
-
-## Potensielle fremtidige møter
-
 - Tech Tuesday: Azure Kubernetes Service
 - Tech Tuesday: Azure Databricks
 - Tech Tuesday: Azure Data Factory
 - Tech Tuesday: Azure Databases
 - Tech Tuesday: Azure Functions
 - Tech Tuesday: Azure Virtual Desktop
+- Tech Tuesday: DevOps with GitHub
+- Tech Tuesday: DevOps with Gitlab
+- Tech Tuesday: GitHub Actions/Workflows
 
 ## Bidra
 
