@@ -58,6 +58,31 @@ Deretter:
 - Stor fleksibilitet
 - Fire referansearkitekturer
 
+## Kjøkkenmetaforen
+
+Tenk på Azure-plattformen som et enormt, velutstyrt kjøkken med alle ingrediensene og verktøyene du trenger for å lage deilige måltider.
+
+Her kommer Azure Landing Zones inn som din personlige kjøkkensjef og oppskriftbok.
+
+Den gir deg en veiledning om hvordan du best kan bruke kjøkkenet
+
+- hvilke ingredienser som passer sammen
+- hvordan du organiserer kjøkkenet ditt for effektiv matlaging
+- hvordan du sørger for at måltidet blir både smakfullt og trygt
+- hvordan du holder kostnaden nede ved tilberedelse
+- hvordan du reduserer matsvinn
+
+Azure Landing Zones gir deg en strukturert tilnærming til å ta i bruk Azure-plattformen, som å følge en oppskrift for å lage et mesterverk av en rett. Det gir deg veiledning for å optimalisere, organisere og sikre din skyinfrastruktur, akkurat som en kjøkkensjef hjelper deg med å lage en gourmetmiddag.
+
+## Subscription vending
+
+- Lage subscriptions
+- Legge inn i management group
+- Lage diverse start-ressurser (vnet, automation account, terraform state, ++)
+- [MS AzureRM LZ Vending](https://github.com/Azure/terraform-azurerm-lz-vending)
+- [2SGo2Cloud Vending](https://github.com/2SGo2Cloud/tia-lz-vending)
+
+
 ### Referansearkitekturer
 
 ### Wingtip
@@ -83,22 +108,6 @@ Deretter:
 - On-premises tilkobling med Azure Virtual WAN
 
 ![contoso](https://github.com/Azure/Enterprise-Scale/blob/main/docs/reference/contoso/media/ns-vwan.png?raw=true)
-
-## Azure som et kjøkken
-
-Tenk på Azure-plattformen som et enormt, velutstyrt kjøkken med alle ingrediensene og verktøyene du trenger for å lage deilige måltider.
-
-Her kommer Azure Landing Zones inn som din personlige kjøkkensjef og oppskriftbok.
-
-Den gir deg en veiledning om hvordan du best kan bruke kjøkkenet
-
-- hvilke ingredienser som passer sammen
-- hvordan du organiserer kjøkkenet ditt for effektiv matlaging
-- hvordan du sørger for at måltidet blir både smakfullt og trygt
-- hvordan du holder kostnaden nede ved tilberedelse
-- hvordan du reduserer matsvinn
-
-Azure Landing Zones gir deg en strukturert tilnærming til å ta i bruk Azure-plattformen, som å følge en oppskrift for å lage et mesterverk av en rett. Det gir deg veiledning for å optimalisere, organisere og sikre din skyinfrastruktur, akkurat som en kjøkkensjef hjelper deg med å lage en gourmetmiddag.
 
 ## Etablering
 
