@@ -1,38 +1,5 @@
 # Prep ALZ sesjon
 
-## Intro
-
-- Trondheim Cloud Community
-- Møteserien Trondheim Tech Tuesday
-- Formål
-- Målgruppe
-- Potensielle tema
-- Dagens tema
-
-
-## Kort om Cloud Adoption Framework (CAF)
-
-![lifecycle](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/_images/caf-overview-graphic.png)
-
-Først:
-
-1. Strategy (Utarbeid Strategi)
-2. Plan (Planlegg)
-3. **Ready** (Klargjør)
-4. Adopt (Ta i bruk)
-
-Deretter:
-
-- Secure (Sikre)
-- Manage (Administrere)
-- Govern (Styre/Håndheve)
-
-## Kort om Azure Landing Zones (ALZ)
-
-![ALZ-Gif](https://github.com/Azure/Enterprise-Scale/blob/main/docs/wiki/media/ESLZ.gif?raw=true)
-
-![ALZ](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/media/customer-landing-zone-journey.png)
-
 ### Nøkkelord
 
 1. **Cloud Computing:** Microsoft Azure Landing Zones er en tilnærming for å ta i bruk cloud computing-tjenester fra Microsoft.
@@ -89,22 +56,6 @@ The Enterprise-Scale architecture is modular by design and allows customers to s
 | Azure Gov | Reference implementation that can be deployed to Azure gov and includes all options in a converged experience | [![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazuregov.svg?sanitize=true)](https://portal.azure.us/#blade/Microsoft_Azure_CreateUIDef/CustomDeploymentBlade/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FEnterprise-Scale%2Fmain%2FeslzArm%2FeslzArm.json/uiFormDefinitionUri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FEnterprise-Scale%2Fmain%2FeslzArm%2Ffairfaxeslz-portal.json) | N/A
 
 > The Bicep version is now available in Public Preview here: [https://github.com/Azure/ALZ-Bicep](https://github.com/Azure/ALZ-Bicep)
-
-### Kjøkken-lignelsen
-
-Tenk på Azure-plattformen som et enormt, velutstyrt kjøkken med alle ingrediensene og verktøyene du trenger for å lage deilige måltider.
-
-Her kommer Azure Landing Zones inn som din personlige kjøkkensjef og oppskriftbok.
-
-Den gir deg en veiledning om hvordan du best kan bruke kjøkkenet
-
-- hvilke ingredienser som passer sammen
-- hvordan du organiserer kjøkkenet ditt for effektiv matlaging
-- hvordan du sørger for at måltidet blir både smakfullt og trygt
-- hvordan du holder kostnaden nede ved tilberedelse
-- hvordan du reduserer matsvinn
-
-Azure Landing Zones gir deg en strukturert tilnærming til å ta i bruk Azure-plattformen, som å følge en oppskrift for å lage et mesterverk av en rett. Det gir deg veiledning for å optimalisere, organisere og sikre din skyinfrastruktur, akkurat som en kjøkkensjef hjelper deg med å lage en gourmetmiddag.
 
 ### ALZ Accelerator
 
@@ -170,4 +121,3 @@ Each of the alert rules documented have been compiled into Azure Policy definiti
 ## Linker
 
 - [GitHub](https://github.com/Azure/Enterprise-Scale/tree/main)
-- 
