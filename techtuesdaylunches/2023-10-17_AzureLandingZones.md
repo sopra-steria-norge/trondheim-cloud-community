@@ -92,7 +92,11 @@ Det sørger for at organisasjonene har de nødvendige retningslinjene, sikkerhet
 
 ## Trafikk
 
-Azure Landing Zones kan sammenlignes med veiskiltene og trafikkreglene på en motorvei. Akkurat som veiskiltene veileder førere til riktig bane og hjelper dem med å forstå reglene på veien, veileder Azure Landing Zones organisasjoner gjennom oppsett og praksis for riktig bruk av Azure-plattformen. De gir en klar retning, sikrer overholdelse av bestemte standarder og gir retningslinjer for å opprettholde sikkerhet og effektivitet mens man navigerer gjennom den store verden av Azure-tjenester. Akkurat som veiskiltene sørger for at førere holder seg trygge og i riktig spor på motorveien, sørger Azure Landing Zones for en trygg og organisert vei for organisasjoner som ønsker å dra nytte av Azure-plattformen.
+Azure Landing Zones kan sammenlignes med veiskiltene og trafikkreglene på en motorvei. Akkurat som veiskiltene veileder førere til riktig bane og hjelper dem med å forstå reglene på veien, veileder Azure Landing Zones organisasjoner gjennom oppsett og praksis for riktig bruk av Azure-plattformen.
+
+De gir en klar retning, sikrer overholdelse av bestemte standarder og gir retningslinjer for å opprettholde sikkerhet og effektivitet mens man navigerer gjennom den store verden av Azure-tjenester.
+
+Akkurat som veiskiltene sørger for at førere holder seg trygge og i riktig spor på motorveien, sørger Azure Landing Zones for en trygg og organisert vei for organisasjoner som ønsker å dra nytte av Azure-plattformen.
 
 ## Subscription vending
 
