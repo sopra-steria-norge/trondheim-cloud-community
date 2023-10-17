@@ -74,6 +74,26 @@ Den gir deg en veiledning om hvordan du best kan bruke kjøkkenet
 
 Azure Landing Zones gir deg en strukturert tilnærming til å ta i bruk Azure-plattformen, som å følge en oppskrift for å lage et mesterverk av en rett. Det gir deg veiledning for å optimalisere, organisere og sikre din skyinfrastruktur, akkurat som en kjøkkensjef hjelper deg med å lage en gourmetmiddag.
 
+## Fundamentmetaforen
+
+Azure Landing Zone i forhold til Azure-plattformen kan sammenlignes med et solid fundament for en skyskrapers bygging. Akkurat som et sterkt og godt konstruert fundament gir stabilitet og struktur til hele bygningen, gir Azure Landing Zone en solid struktur for organisasjonens skyimplementering i Azure.
+
+Det etablerer retningslinjer, beste praksis og retningslinjer som sikrer at skyinfrastrukturen er stabil, sikkert og optimalisert for organisasjonens behov. 
+
+På samme måte som fundamentet gir en solid base for skyskraperen, gir Azure Landing Zone en solid base for å bygge og administrere komplekse skytjenester på Azure-plattformen.
+
+## Inngangsporten
+
+Azure Landing Zone kan sammenlignes med en velorganisert og sikker "inngangsport" til den store, mangfoldige verdenen av Azure-plattformen.
+
+Akkurat som en inngangsport gir reisende en strukturert og sikker vei inn i en stor flyplass, gir Azure Landing Zone en rammeverk og veiledning for organisasjoner når de navigerer og tar i bruk Azure-plattformen.
+
+Det sørger for at organisasjonene har de nødvendige retningslinjene, sikkerhetstiltakene og ressursene for å komme i gang trygt og effektivt i skyen.
+
+## Trafikk
+
+Azure Landing Zones kan sammenlignes med veiskiltene og trafikkreglene på en motorvei. Akkurat som veiskiltene veileder førere til riktig bane og hjelper dem med å forstå reglene på veien, veileder Azure Landing Zones organisasjoner gjennom oppsett og praksis for riktig bruk av Azure-plattformen. De gir en klar retning, sikrer overholdelse av bestemte standarder og gir retningslinjer for å opprettholde sikkerhet og effektivitet mens man navigerer gjennom den store verden av Azure-tjenester. Akkurat som veiskiltene sørger for at førere holder seg trygge og i riktig spor på motorveien, sørger Azure Landing Zones for en trygg og organisert vei for organisasjoner som ønsker å dra nytte av Azure-plattformen.
+
 ## Subscription vending
 
 - Lage subscriptions
