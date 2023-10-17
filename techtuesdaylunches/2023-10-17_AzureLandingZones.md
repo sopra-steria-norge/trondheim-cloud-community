@@ -103,7 +103,8 @@ Akkurat som veiskiltene sørger for at førere holder seg trygge og i riktig spo
 - Lage subscriptions
 - Legge inn i management group
 - Lage diverse start-ressurser (vnet, automation account, terraform state, ++)
-- [MS AzureRM LZ Vending](https://github.com/Azure/terraform-azurerm-lz-vending)
+- [MS Terraform LZ Vending](https://github.com/Azure/terraform-azurerm-lz-vending)
+- [MS Bicep LZ vending](https://github.com/Azure/bicep-lz-vending)
 - [2SGo2Cloud Vending](https://github.com/2SGo2Cloud/tia-lz-vending)
 
 
