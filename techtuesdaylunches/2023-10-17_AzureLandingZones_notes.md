@@ -1,5 +1,7 @@
 # Prep ALZ sesjon
 
+The Azure landing zone conceptual architecture represents scale and maturity decisions. It's based on lessons learned and feedback from customers who have adopted Azure as part of their digital estate. This conceptual architecture can help your organization set a direction for designing and implementing a landing zone.
+
 ### Nøkkelord
 
 1. **Cloud Computing:** Microsoft Azure Landing Zones er en tilnærming for å ta i bruk cloud computing-tjenester fra Microsoft.
@@ -21,25 +23,73 @@ De åtte designområdene som nevnes i Azure Landing Zones fra Microsofts Cloud A
 
 1. **Azure billing and Active Directory Tenant (Azure-fakturering og Active Directory-tenant):** Dette området handler om administrasjon av fakturering for Azure-tjenester og oppsett av Azure Active Directory Tenant, som er en sentral komponent for Azure-miljøet.
 
+The Azure service presents a range of active subscription offers, and customers can use these offers at the same time to gain flexible billing options. Example subscriptions include Enterprise Agreement (Enterprise Agreement), Microsoft customer agreement, cloud service provider, and others.
+
+The Azure landing zone architecture supports subscriptions from any Azure offer. Subscriptions can only exist within one Microsoft Entra tenant to then relocate into the management group hierarchy within that tenant. They can then be managed by the various controls with enterprise-scale platforms like Azure Policy and role-based access control (RBAC).
+
 2. **Identity and access management (Identitet og tilgangsstyring):** Dette området fokuserer på administrasjon av brukeridentiteter og tilgangsstyring til Azure-ressurser. Det inkluderer opprettelse og administrasjon av brukerkontoer, rollebasert tilgangskontroll (RBAC) og flerfaktorautentisering for økt sikkerhet.
+
+Identity provides the basis for a wide variety of security assurance. It grants access based on identity authentication and authorization controls in cloud services. Access control protects data and resources and helps decide which requests should be permitted.
+
+The technological landscape in the enterprise is becoming complex and heterogenous. To manage compliance and security for this environment, identity and access management lets the right individuals access the right resources at the right time for the right reasons.
+
+Identity and access management is boundary security in the public cloud. It must be treated as the foundation of any secure and fully compliant public cloud architecture. Azure offers a comprehensive set of services, tools, and reference architectures to help organizations make highly secure, operationally efficient environments.
 
 3. **Resource organization (Ressursorganisering):** Her handler det om å strukturere og organisere Azure-ressurser på en måte som er logisk og administrerbar for organisasjonen. Dette kan inkludere bruk av ressursgrupper, ressursgruppesett og navngivningskonvensjoner.
 
+Cloud adoption journeys have varying starting points and scale requirements. Some enterprises start with a few applications in the cloud and grow over time. Other enterprises must scale quickly to address business demands like a datacenter migration. In either scenario, resource organization planning should include environment growth to accommodate further applications and services.
+
+A key consideration for resource organization design is to simplify management across the environment for increased workload numbers and scale. Azure landing zone design and implementation should consider foundational management group and subscription structure, to avoid creating scaling constraints later.
+
+The resource organization design area explores techniques and technologies that help maintain good resource topologies in cloud environments. The following diagram shows the four scope levels for organizing Azure resources: management groups, subscriptions, resource groups, and resources.
+
 4. **Network topology and connectivity (Nettverkstopologi og tilkobling):** Dette området omhandler design og konfigurasjon av nettverksarkitektur i Azure, inkludert oppsett av virtuelle nettverk, subnett og tilkobling til lokale nettverk. Herunder Hub-Spoke-topologi eller Virtual WAN
+
+Network topology and connectivity are fundamental for organizations that are planning their landing zone design. Networking is central to almost everything inside a landing zone. It enables connectivity to other Azure services, external users, and on-premises infrastructure. Network topology and connectivity are in the environmental group of Azure landing zone design areas. This grouping is based on their importance in core design and implementation decisions.
+
+In the conceptual Azure landing zone architecture, there are two main management groups hosting workloads: Corp and Online. These management groups serve distinct purposes in organizing and governing Azure subscriptions. The networking relationship between the various Azure landing zones management groups depends on the organization's specific requirements and network architecture. The next few sections discuss the networking relationship between Corp, Online, and the Connectivity management groups in relation to what the Azure landing zone accelerator provides.
 
 5. **Security (Sikkerhet):** Sikkerhetsaspektet handler om å implementere sikkerhetskontroller og prinsipper for å beskytte Azure-ressurser. Dette kan inkludere brannmurer, sikkerhetsgrupper, trusselovervåking og konformitetskontroller.
 
+Security is a core consideration for all customers, in every environment. When designing and implementing an Azure landing zone, security should be a consideration throughout the process.
+
+The security design area focuses on considerations and recommendations for landing zone decisions. The Secure methodology of the Cloud Adoption Framework also provides further in-depth guidance for holistic security processes and tools.
+
+New (greenfield) cloud environment: To start your cloud journey with a small set of subscriptions, see Create your initial Azure subscriptions. Also, consider using Bicep deployment templates in building out your Azure landing zones. For more information, see Azure Landing Zones Bicep - Deployment Flow.
+
+Existing (brownfield) cloud environment: Consider using the following Microsoft Entra identity and access services if you are interested in applying the principles from security design area to existing Azure environments:
+
 6. **Management (Administrasjon):** Administrasjon omfatter effektiv styring av Azure-ressurser. Dette inkluderer overvåkning, feilsøking, oppdateringer og konfigurasjon av ressurser.
+
+For stable, ongoing operations in the cloud, a management baseline is required to provide visibility, operations compliance, and protect and recover capabilities.
+
+The management design area focuses on the considerations and recommendations for landing zone design decisions. Also, the Manage methodology of the Cloud Adoption Framework provides further in-depth guidance for holistic management processes and tools.
 
 7. **Governance (Styring):** Dette området dreier seg om å etablere retningslinjer og retningslinjer for administrasjon av Azure-ressurser. Det inkluderer administrasjon av kostnader, sikkerhet og overholdelse/samsvar. Azure Policy er sentralt her, og spesielt DeployIfNotExists og Deny.
 
+An organizations cloud adoption journey starts with strong controls to government environments.
+
+Governance provides mechanisms and processes for maintaining control over platforms, applications, and resources in Azure.
+
+The design area review explores the considerations and recommendations that help you make informed decisions as you plan your landing zone.
+
+The governance design area focuses on the design decisions in the landing zone. Also, the Govern methodology of the Cloud Adoption Framework gives guidance for governance processes and tools.
+
 8. **Platform automation and DevOps (Plattformautomatisering og DevOps):** Dette området handler om å automatisere prosesser for ressursimplementering og administrasjon. DevOps-prinsipper brukes for å effektivisere utviklings- og driftsoperasjoner.
+
+The scale, agility, and flexibility part of cloud technologies leads to opportunities for new ways of working and modern approaches to service delivery.
+
+Many traditional IT operating models aren't compatible with the cloud and must undergo operational transformation to deliver against enterprise migration targets. You can evaluate using DevOps processes and tools for application and central teams.
 
 Disse åtte designområdene gir en helhetlig tilnærming til å forberede organisasjonen på en vellykket implementering og administrasjon av Azure-tjenester gjennom Azure Landing Zones. De gir et rammeverk for å ta hensyn til alle viktige aspekter, fra økonomi og identitet til nettverk og sikkerhet.
 
 ### Velg landingssone
 
 [Mer info](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/choose-landing-zone-option)
+
+Platform landing zone: A platform landing zone is a subscription that provides shared services (identity, connectivity, management) to applications in application landing zones. Consolidating these shared services often improves operational efficiency. One or more central teams manage the platform landing zones. In the conceptual architecture (see figure 1), the "Identity subscription", "Management subscription", and "Connectivity subscription" represent three different platform landing zones. The conceptual architecture shows these three platform landing zones in detail. It depicts representative resources and policies applied to each platform landing zone.
+
+Application landing zone: An application landing zone is a subscription for hosting an application. You pre-provision application landing zones through code and use management groups to assign policy controls to them. In the conceptual architecture (see figure 1), the "Landing zone A1 subscription" and "Landing zone A2 subscription" represent two different application landing zones. The conceptual architecture shows only the "Landing zone A2 subscription" in detail. It depicts representative resources and policies applied to the application landing zone.
 
 ### Referanse-arkitekturer
 
