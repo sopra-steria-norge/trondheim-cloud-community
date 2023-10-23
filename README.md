@@ -19,6 +19,20 @@ Det er forsøkt startet en tradisjon for intern Tech Tuesday/Teknolunsj, og form
 
 ### Planlagte møter
 
+#### 24. Oktober - Tech Tuesday: Azure Networking 101
+
+Vi går gjennom grunnleggende Azure Networking:
+
+- Hva er et virtuelt nettverk?
+- Hva er network peering?
+- Hvordan fungerer hub & spoke?
+- Hva er forskjellen mellom Hub & Spoke og Azure Virtual WAN?
+- Nettverk ingress og egress: hva betyr det?
+
+Det er mulighet for å hente seg lunsj i kantina denne dagen. Jeg har fått lov til å spandere lunsj på dere som ønsker å delta.
+
+Ta med nysgjerrig-hatten, så diskuterer vi litt nettverk i Azure!
+
 #### 17. Oktober - Tech Tuesday: Azure Landing Zones 101
 
 Vi sparker i gang en møteserie for tekniske tema i Trondheim! Alt for lenge har vi hatt tanker om at dette er noe vi må få til, så det er på høy tid at vi endelig starter.
