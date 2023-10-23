@@ -12,6 +12,7 @@ Det er forsøkt startet en tradisjon for intern Tech Tuesday/Teknolunsj, og form
 
 ### Avholdte møter
 
+- [Tech Tuesday: Azure Landing Zones](./techtuesdaylunches/2023-10-17_AzureLandingZones.md)
 - [Tech Tuesday: Terraform intro](./SlideDecks/2021-10-12/Tech%20Tuesday%20-%20Terraform%20intro.pptx)
 - [Tech Tuesday: CAF ESLZ](./SlideDecks/2021-11-23/Tech%20Tuesday%20-%20CAF%20ESLZ.pptx)
 - [MS Cloud Community: Bicep demo](SlideDecks/2021-12-08/Presentasjon%20-%20Bicep.pptx)
