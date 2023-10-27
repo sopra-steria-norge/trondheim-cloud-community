@@ -12,6 +12,7 @@ Det er forsøkt startet en tradisjon for intern Tech Tuesday/Teknolunsj, og form
 
 ### Avholdte møter
 
+- [Tech Tuesday: Azure Networking](./techtuesdaylunches/2023-10-24_Azure_Networking_notes.md)
 - [Tech Tuesday: Azure Landing Zones](./techtuesdaylunches/2023-10-17_AzureLandingZones.md)
 - [Tech Tuesday: Terraform intro](./SlideDecks/2021-10-12/Tech%20Tuesday%20-%20Terraform%20intro.pptx)
 - [Tech Tuesday: CAF ESLZ](./SlideDecks/2021-11-23/Tech%20Tuesday%20-%20CAF%20ESLZ.pptx)
@@ -19,6 +20,18 @@ Det er forsøkt startet en tradisjon for intern Tech Tuesday/Teknolunsj, og form
 - [Tech Tuesday: Network Security Groups](SlideDecks/2022-02-14/Presentasjon%20-%20Network%20Security%20Groups.pptx)
 
 ### Planlagte møter
+
+#### 1. November - Tech Tuesday: Azure Policy 101
+
+Demonstrasjon av Azure Policy med de forskjellige mulighetene man har der!
+
+- Hva er Azure Policy?
+- Hvordan bruker vi policy for å drive governance?
+- Hvilke forskjellige handlinger kan Azure Policy gjøre?
+- Hvor gjelder Azure Policy?
+- Hva er gjort ute hos kunder?
+
+Dette og mere til vil vi gå gjennom på Tech Tuesday tirsdag 1. november. Møt opp hvis du er interessert i Azure Policy og Governance/Samsvar/Compliance.
 
 #### 24. Oktober - Tech Tuesday: Azure Networking 101
 
