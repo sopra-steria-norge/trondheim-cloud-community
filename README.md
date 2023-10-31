@@ -12,6 +12,7 @@ Det er forsøkt startet en tradisjon for intern Tech Tuesday/Teknolunsj, og form
 
 ### Avholdte møter
 
+- [Tech Tuesday: Azure Policy](./techtuesdaylunches/2023-10-31_Azure_Policy_notes.md)
 - [Tech Tuesday: Azure Networking](./techtuesdaylunches/2023-10-24_Azure_Networking_notes.md)
 - [Tech Tuesday: Azure Landing Zones](./techtuesdaylunches/2023-10-17_AzureLandingZones.md)
 - [Tech Tuesday: Terraform intro](./SlideDecks/2021-10-12/Tech%20Tuesday%20-%20Terraform%20intro.pptx)
