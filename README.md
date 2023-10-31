@@ -21,7 +21,7 @@ Det er forsøkt startet en tradisjon for intern Tech Tuesday/Teknolunsj, og form
 
 ### Planlagte møter
 
-#### 1. November - Tech Tuesday: Azure Policy 101
+#### 31. oktober - Tech Tuesday: Azure Policy 101
 
 Demonstrasjon av Azure Policy med de forskjellige mulighetene man har der!
 
