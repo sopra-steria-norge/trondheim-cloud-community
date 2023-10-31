@@ -31,7 +31,7 @@ Demonstrasjon av Azure Policy med de forskjellige mulighetene man har der!
 - Hvor gjelder Azure Policy?
 - Hva er gjort ute hos kunder?
 
-Dette og mere til vil vi gå gjennom på Tech Tuesday tirsdag 1. november. Møt opp hvis du er interessert i Azure Policy og Governance/Samsvar/Compliance.
+Dette og mere til vil vi gå gjennom på Tech Tuesday tirsdag 31. oktober. Møt opp hvis du er interessert i Azure Policy og Governance/Samsvar/Compliance.
 
 #### 24. Oktober - Tech Tuesday: Azure Networking 101
 
