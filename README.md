@@ -22,6 +22,16 @@ Det er forsøkt startet en tradisjon for intern Tech Tuesday/Teknolunsj, og form
 
 ### Planlagte møter
 
+#### 7. november - Tech Tuesday: Docker, Kubernetes and AKS
+
+Vi ser på hva container-teknologi er, og hvordan det brukes.
+
+- Hva er en container?
+- Hva er docker og kubernetes?
+- Hva er og hvordan bruker man AKS?
+
+Er du nysgjerrig på hva dette er, eller lurer på hvordan det fungerer, kom å still spørsmål :-D
+
 #### 31. oktober - Tech Tuesday: Azure Policy 101
 
 Demonstrasjon av Azure Policy med de forskjellige mulighetene man har der!
