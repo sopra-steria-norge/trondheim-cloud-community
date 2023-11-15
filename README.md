@@ -23,6 +23,18 @@ Det er forsøkt startet en tradisjon for intern Tech Tuesday/Teknolunsj, og form
 
 ### Planlagte møter
 
+#### 21. november - Tech Tuesday: Tilgangsstyring i Azure
+
+Vi går gjennom tilgangsstyring i Azure. All tilgang på Azure-ressurser styres av Azure Role-Based Access Control. Dette er kjekt å vite litt om i møte med migreringer eller deployments.
+
+- Hva er Azure RBAC?
+- Hva er Azure ABAC?
+- Hvordan fungerer arv og scoping av tilgang?
+- Hvordan kan man assigne roller?
+- Hva er Role Definitions?
+
+Dette og mere til går vi gjennom kommende tirsdag 21. november. Be there or be 🟦 ! 😎
+
 #### 7. november - Tech Tuesday: Docker, Kubernetes and AKS
 
 Vi ser på hva container-teknologi er, og hvordan det brukes.
