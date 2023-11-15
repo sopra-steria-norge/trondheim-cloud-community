@@ -23,7 +23,7 @@ Det er forsøkt startet en tradisjon for intern Tech Tuesday/Teknolunsj, og form
 
 ### Planlagte møter
 
-### 21. november - Tech Tuesday: Tilgangsstyring i Azure
+#### 21. november - Tech Tuesday: Tilgangsstyring i Azure
 
 Vi går gjennom tilgangsstyring i Azure. All tilgang på Azure-ressurser styres av Azure Role-Based Access Control. Dette er kjekt å vite litt om i møte med migreringer eller deployments.
 
