@@ -1,2 +1,0 @@
-# Azure Monitoring and Management
-

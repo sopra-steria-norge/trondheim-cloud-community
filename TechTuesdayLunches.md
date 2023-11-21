@@ -1,100 +1,68 @@
-# Azure Fundamentals Lunch Series
+# Avholdte møter
 
->Disclaimer: Session list generated with ChatGPT. Typos and structural errors are likely.
+## 21. november - Tech Tuesday: Tilgangsstyring i Azure
 
-## Presentation 1: Introduction to Azure
+Vi går gjennom tilgangsstyring i Azure. All tilgang på Azure-ressurser styres av Azure Role-Based Access Control. Dette er kjekt å vite litt om i møte med migreringer eller deployments.
 
-- Overview of cloud computing and its benefits
-- Introduction to Microsoft Azure and its key features
-- Understanding Azure regions, availability zones, and resource groups
-- Introduction to Azure Portal and Azure Management Services
-- Demonstration of creating a simple Azure resource
+- Hva er Azure RBAC?
+- Hva er Azure ABAC?
+- Hvordan fungerer arv og scoping av tilgang?
+- Hvordan kan man assigne roller?
+- Hva er Role Definitions?
 
-## Presentation 2: Azure Virtual Machines
+Dette og mere til går vi gjennom kommende tirsdag 21. november. Be there or be 🟦 ! 😎
 
-- Understanding Azure Virtual Machines and their use cases
-- Provisioning and managing virtual machines in Azure
-- Choosing the right VM size and configuration options
-- Virtual machine scaling and high availability
-- Best practices for securing and monitoring virtual machines
+## 7. november - Tech Tuesday: Docker, Kubernetes and AKS
 
-## Presentation 3: Azure Storage
+Vi ser på hva container-teknologi er, og hvordan det brukes.
 
-- Overview of Azure Storage services (Blob, File, Table, Queue)
-- Use cases for different Azure Storage services
-- Understanding storage redundancy and performance options
-- Working with Azure Storage Explorer and Azure CLI
-- Implementing security and access control for Azure Storage
+- Hva er en container?
+- Hva er docker og kubernetes?
+- Hva er og hvordan bruker man AKS?
 
-## Presentation 4: Azure Networking
+Er du nysgjerrig på hva dette er, eller lurer på hvordan det fungerer, kom å still spørsmål :-D
 
-- Introduction to Azure Virtual Networks (VNet) and subnets
-- Configuring network security groups and virtual network peering
-- Implementing Azure Load Balancer for traffic distribution
-- Connecting on-premises networks with Azure using VPN and ExpressRoute
-- Monitoring and troubleshooting network connectivity in Azure
+## 31. oktober - Tech Tuesday: Azure Policy 101
 
-## Presentation 5: Azure App Services
+Demonstrasjon av Azure Policy med de forskjellige mulighetene man har der!
 
-- Overview of Azure App Service and its benefits
-- Deploying web applications to Azure App Service
-- Managing deployment slots and scaling options
-- Configuring custom domains and SSL certificates
-- Monitoring and troubleshooting Azure App Service applications
+- Hva er Azure Policy?
+- Hvordan bruker vi policy for å drive governance?
+- Hvilke forskjellige handlinger kan Azure Policy gjøre?
+- Hvor gjelder Azure Policy?
+- Hva er gjort ute hos kunder?
 
-## Presentation 6: Azure Identity and Access Management
+Dette og mere til vil vi gå gjennom på Tech Tuesday tirsdag 31. oktober. Møt opp hvis du er interessert i Azure Policy og Governance/Samsvar/Compliance.
 
-- Understanding Azure Active Directory (Azure AD)
-- Managing users, groups, and roles in Azure AD
-- Implementing single sign-on (SSO) with Azure AD
-- Configuring Multi-Factor Authentication (MFA) in Azure AD
-- Best practices for securing Azure resources with Azure AD
+## 24. Oktober - Tech Tuesday: Azure Networking 101
 
-## Presentation 7: Azure Monitoring and Management
+Vi går gjennom grunnleggende Azure Networking:
 
-- Overview of Azure Monitor and Azure Log Analytics
-- Collecting and analyzing metrics and logs in Azure
-- Setting up alerts and notifications for Azure resources
-- Automating resource management with Azure Automation
-- Introduction to Azure Resource Manager (ARM) templates
+- Hva er et virtuelt nettverk?
+- Hva er network peering?
+- Hvordan fungerer hub & spoke?
+- Hva er forskjellen mellom Hub & Spoke og Azure Virtual WAN?
+- Nettverk ingress og egress: hva betyr det?
 
-## Presentation 8: Azure DevOps and CI/CD
+Det er mulighet for å hente seg lunsj i kantina denne dagen. Jeg har fått lov til å spandere lunsj på dere som ønsker å delta.
 
-- Introduction to Azure DevOps and its components
-- Setting up continuous integration and continuous deployment (CI/CD) pipelines
-- Integrating Azure DevOps with other Azure services
-- Implementing infrastructure as code (IaC) with Azure DevOps
-- Best practices for agile development and DevOps in Azure
+Ta med nysgjerrig-hatten, så diskuterer vi litt nettverk i Azure!
 
-## Presentation 9: GitHub and CI/CD
+## 17. Oktober - Tech Tuesday: Azure Landing Zones 101
 
-- Introduction to GitHub and its components
-- Setting up continuous integration and continuous deployment (CI/CD) actions workflows
-- Integrating GitHub with Azure services
-- Implementing infrastructure as code (IaC) with GitHub
-- Best practices for agile development and DevOps in GitHub
+Vi sparker i gang en møteserie for tekniske tema i Trondheim! Alt for lenge har vi hatt tanker om at dette er noe vi må få til, så det er på høy tid at vi endelig starter.
 
-## Presentation 10: Azure Cost Management and Optimization
+Robert Dybvad og undertegnede kommer sammen til å holde faglunsjer med forskjellige tema. Vi gir et enkelt overblikk på et eller annet teknisk-aktig, og tar gjerne imot forslag til ting vi skal prate om.
 
-- Understanding Azure billing and cost management
-- Monitoring and controlling Azure resource usage and costs
-- Implementing cost optimization strategies in Azure
-- Azure Reserved VM Instances and Azure Spot VMs
-- Using Azure Advisor and Azure Cost Management + Billing for cost optimization
+Første tema er Azure Landing Zones. Vi går gjennom rammeverket som Microsoft utviklet for kundene sine.
 
-## Presentation 11: Azure Security and Compliance
+>An Azure landing zone is an environment that follows key design principles across eight design areas. These design principles accommodate all application portfolios and enable application migration, modernization, and innovation at scale. An Azure landing zone uses subscriptions to isolate and scale application resources and platform resources. Subscriptions for application resources are called application landing zones, and subscriptions for platform resources are called platform landing zones.
+>- **Microsoft**
 
-- Overview of Azure security services and features
-- Implementing network security with Azure Network Security Groups (NSGs)
-- Data encryption and protection in Azure
-- Implementing Azure Security Center for threat detection and response
-- Achieving regulatory compliance with Azure
+- Hva er Azure Landing Zones (ALZ)?
+- Hva er en landingssone?
+- Forskjellige måter å etablere ALZ på (Terraform/Bicep).
+- Hvorfor bruke ALZ?
+- Governance/Guardrails?
 
-## Presentation 12: Azure Governance
-
-- Introduction to Azure Governance with Policies and Initiatives
-- Azure Policy and initiative definition syntax
-- Azure Policy effects
-- Implementing Azure policies for resource consistency and compliance
-- Best practices for Azure Governance
-- Azure Governance Visualizer
+Alt dette og mer får du svaret på i denne faglunsjen. Sett av 30 minutter (eller mer hvis du har tid) til litt kompetanseheving i lunsjen!

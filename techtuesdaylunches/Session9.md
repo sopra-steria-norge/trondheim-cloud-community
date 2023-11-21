@@ -1,2 +1,0 @@
-# GitHub and CI/CD
-

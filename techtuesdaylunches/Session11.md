@@ -1,2 +1,0 @@
-# Azure Security and Compliance
-
