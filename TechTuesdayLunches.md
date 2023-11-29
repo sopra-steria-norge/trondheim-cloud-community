@@ -1,5 +1,29 @@
 # Avholdte møter
 
+## 28. november - Tech Tuesday: Sertifikater avmystifisert!
+
+Hvordan kan du lese helseinformasjon på helsenorge.no i visshet om at ingen ser hemmelighetene dine?
+
+- Hva er et sertifikat?
+- Offentlig og privat nøkkel, hva er forskjellen?
+- PKI - Hvorfor trenger du å vite om det?
+- Enkel og sikker autentisering? Hvordan fungerer det?!
+
+Dette og mere til går vi gjennom kommende tirsdag.
+
+🤓 Be there or be non-authenticated, like a server rejecting a self-signed cert! 🤓
+
+- *Be there or be unverified, like a certificate without a private key!*
+- *Be there or be non-authenticated, like a server rejecting a self-signed cert!*
+- *Be there or be as obsolete as SHA-1 in a modern PKI world!*
+- *Be there or be unencrypted, like plaintext waiting to be intercepted!*
+- *Be there or be untrusted, like a self-signed certificate on first access!*
+- *Be there or be as expired as a certificate left unchecked!*
+- *Be there or be insecure, like an open door in a robust security system!*
+- *Be there or be revoked, like a compromised certificate in need of immediate action!*
+- *Be there or be unauthenticated, like a user without valid credentials!*
+- *Be there or be as vulnerable as plaintext in transit without SSL/TLS!*
+
 ## 21. november - Tech Tuesday: Tilgangsstyring i Azure
 
 Vi går gjennom tilgangsstyring i Azure. All tilgang på Azure-ressurser styres av Azure Role-Based Access Control. Dette er kjekt å vite litt om i møte med migreringer eller deployments.

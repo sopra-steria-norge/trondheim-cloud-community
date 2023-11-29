@@ -12,6 +12,7 @@ Det er forsøkt startet en tradisjon for intern Tech Tuesday/Teknolunsj, og form
 
 ### Avholdte møter
 
+- [Tech Tuesday: Sertifikater avmystifisert!](./SlideDecks/2023-11-28/Sertifikater_avmystifisert.pdf)
 - [Tech Tuesday: Tilgangsstyring i Azure](./techtuesdaylunches/2023-11-21_AzureRBAC_Notes.md)
 - [Tech Tuesday: Docker, Kubernetes and AKS](./SlideDecks/2023-11-07/TechTuesday_Containers-kubernetes-aks.pdf)
 - [Tech Tuesday: Azure Policy](./techtuesdaylunches/2023-10-31_Azure_Policy_notes.md)
@@ -24,29 +25,20 @@ Det er forsøkt startet en tradisjon for intern Tech Tuesday/Teknolunsj, og form
 
 ### Planlagte møter
 
-#### 28. november - Tech Tuesday: Sertifikater avmystifisert!
+#### 5. december - Tech Tuesday: Beskytt plattformtjenestene i Azure!
 
-Hvordan kan du lese helseinformasjon på helsenorge.no i visshet om at ingen ser hemmelighetene dine?
+Har du noen gang konfigurert en Azure App Service? Har du håndtert en Storage Account? Har du brukt Azure Database for SQL?
+I så fall har du muligens håndtert dem over "det åpne internett", dog forhåpentligvis over kryptert forbindelse. Noen kunder krever at plattformtjenestene (som disse jo er) aksesseres kun over private nettverk. Her kommer såkalte "Private endpoints" inn i bildet.
 
-- Hva er et sertifikat?
-- Offentlig og privat nøkkel, hva er forskjellen?
-- PKI - Hvorfor trenger du å vite om det?
-- Enkel og sikker autentisering? Hvordan fungerer det?!
+Dette kan du forvente å høre om:
 
-Dette og mere til går vi gjennom kommende tirsdag.
+- Hva er et private endpoint?
+- Hvordan etablerer man dette for en storage account/SQL Database/App Service?
+- Hva er forskjellen på private endpoints og service endpoints?
+- Hvordan gjøre håndtering av private endpoints i større skala? Hint: Azure Policies er sentralt her!
+- Hvordan etablere dette med Terraform?
 
-🤓 Be there or be non-authenticated, like a server rejecting a self-signed cert! 🤓
-
-- *Be there or be unverified, like a certificate without a private key!*
-- *Be there or be non-authenticated, like a server rejecting a self-signed cert!*
-- *Be there or be as obsolete as SHA-1 in a modern PKI world!*
-- *Be there or be unencrypted, like plaintext waiting to be intercepted!*
-- *Be there or be untrusted, like a self-signed certificate on first access!*
-- *Be there or be as expired as a certificate left unchecked!*
-- *Be there or be insecure, like an open door in a robust security system!*
-- *Be there or be revoked, like a compromised certificate in need of immediate action!*
-- *Be there or be unauthenticated, like a user without valid credentials!*
-- *Be there or be as vulnerable as plaintext in transit without SSL/TLS!*
+🤓 Be there or be publicly available as an unprotected Azure Storage Account with anonymous access enabled! 🤓
 
 ### Brainstorming
 
