@@ -4,7 +4,7 @@ Offentlig repository med innhold relatert til Trondheim Cloud Community i Sopra 
 
 Alle filer i dette repositoriet er offentlig tilgjengelig på internett. Det skal ikke ligge noen proprietær informasjon her.
 
-Sopra Steria Trondheim Cloud Community er et internt kompetasemiljø for utvikling av skykompetanse hovedsakelig i Trondheim. Det kan bli aktuelt med community-møter for utenforstående, men for øyeblikket er dette kun for interne. Slide decks er dog for øyeblikket offentlig tilgjengelig.
+Sopra Steria Trondheim Cloud Community er en intern satsing for utvikling av skykompetanse hovedsakelig i Trondheim. Det kan bli aktuelt med sesjoner for utenforstående, men for øyeblikket er dette kun internt. Slide decks er dog for øyeblikket offentlig tilgjengelig.
 
 ## Konsept: Tech Tuesday
 
